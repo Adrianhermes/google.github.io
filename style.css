@@ -10,26 +10,28 @@ body{
     display: flex;
     align-items: center;
     margin-top: 15px;
-    margin-left: 1130px;
+    justify-content: flex-end;  /*modificado:*/
+    padding-right: 15px;        /*modificado:*/
+    gap: 20px;                  /*modificado:*/
 }
-.menu_texto{
-    padding-right: 15px;
-}
+/* .menu_texto{
+    /* padding-right: 15px;  */
+
 .menu_perfil{
     height: 32px;
     width: 32px;
     border-radius: 15px 15px;
 }
-.menu_icone{
-    padding-right: 15px;
-}
+/* .menu_icone{
+    /* padding-right: 15px; */
+
 .logo{
     margin-top: 70px;
     margin-left: 540px;
 }
 .pesquisa{
     margin-top: 20px;
-    margin-left: 430px;
+    margin-left: 430px; 
     width: 500px;
     height: 40px;
     border-radius: 20px 20px ;
@@ -50,11 +52,11 @@ body{
     background: #303134;
     color: white;
     outline: none;
-    border-color: transparent;
-    border-radius: 5px 5px;
+    border-color: transparent;          /*modificado:*/
+    border-radius: 5px 5px;             /*modificado:*/
 }
 .botao_pesquisa:hover{
-    border: 1px solid#bdc1c6;
+    border: 1px solid#bdc1c6;         /*modificado:*/
 }
 
 .botao_explorar{
@@ -65,11 +67,11 @@ body{
     background: #303134;
     color: white;
     outline: none;
-    border-color: transparent;
-    border-radius: 5px 5px;
+    border-color: transparent;      /*modificado:*/
+    border-radius: 5px 5px;         /*modificado:*/
 }
 .botao_explorar:hover{
-    border: 1px solid#bdc1c6;
+    border: 1px solid#bdc1c6;    /*modificado:*/
 }
 
 .traduçao{
@@ -103,10 +105,22 @@ body{
     padding-top: 18px ;
     background: #1b1b1b;
     height: 35px;
-    padding-left: 10px;
     border-top: 1px solid #303134;
+    display: flex;                      /*modificado:*/
+    justify-content: space-between;     /*modificado:*/
 }
-.menu_sobre{
+.menu_config_esquerda{
+    gap: 20px;           /*modificado:*/
+    display: flex;       /*modificado:*/
+    padding-left: 30px;  /*modificado:*/
+}
+.menu_config_direita{
+    gap: 20px;           /*modificado:*/
+    display: flex;       /*modificado:*/
+    padding-right: 30px; /*modificado:*/
+}
+
+/* .menu_sobre{
     padding: 12px;
 }
 .menu_publicidade{
@@ -119,7 +133,7 @@ body{
     padding: 12px;
     padding-right: 680px;
 }
-.menu_privacudade{
+.menu_privacidade{
     padding: 12px;
 }
 .menu_termos{
@@ -127,5 +141,5 @@ body{
 }
 .menu_configuraçoes{
     padding: 12px;
-}
+} */
 
