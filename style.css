@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+body{
+   background-color:rgba(32,33,36,1)
+}
+.menu_direita{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 1130px;
+}
+.menu_texto{
+    padding-right: 15px;
+}
+.menu_perfil{
+    height: 32px;
+    width: 32px;
+    border-radius: 15px 15px;
+}
+.menu_icone{
+    padding-right: 15px;
+}
+.logo{
+    margin-top: 70px;
+    margin-left: 540px;
+}
+.pesquisa{
+    margin-top: 20px;
+    margin-left: 430px;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px 20px ;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(118, 118, 118);
+    outline: none;
+}
+.pesquisa:hover{
+    background: rgb(59, 59, 59);
+}
+
+.botao_pesquisa{
+    margin-left: 550px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background: #303134;
+    color: white;
+    outline: none;
+    border-color: transparent;
+    border-radius: 5px 5px;
+}
+.botao_pesquisa:hover{
+    border: 1px solid#bdc1c6;
+}
+
+.botao_explorar{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 120px;
+    height: 35px;
+    background: #303134;
+    color: white;
+    outline: none;
+    border-color: transparent;
+    border-radius: 5px 5px;
+}
+.botao_explorar:hover{
+    border: 1px solid#bdc1c6;
+}
+
+.traduçao{
+    color: #bdc1c6;
+    text-align: center;
+    font: 13px arial;
+    margin-top: 20px
+}
+.english{
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+.english:hover{
+    text-decoration: underline;
+}
+
+.pais{
+    margin-top: 162px;
+    color: #bdc1c6;
+    font: 15px arial;
+    background: #1b1b1b;
+    padding: 12px;
+    padding-top: 15px;
+    padding-left: 20px;
+    height: 15px;
+}
+.menu_config{
+    color: #bdc1c6;
+    font: 12px arial;
+    padding-top: 18px ;
+    background: #1b1b1b;
+    height: 35px;
+    padding-left: 10px;
+    border-top: 1px solid #303134;
+}
+.menu_sobre{
+    padding: 12px;
+}
+.menu_publicidade{
+    padding: 12px;
+}
+.menu_negocios{
+    padding: 12px;
+}
+.menu_pesquisa{
+    padding: 12px;
+    padding-right: 680px;
+}
+.menu_privacudade{
+    padding: 12px;
+}
+.menu_termos{
+    padding: 12px;
+}
+.menu_configuraçoes{
+    padding: 12px;
+}
+
