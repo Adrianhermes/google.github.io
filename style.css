@@ -12,7 +12,8 @@ body{
     margin-top: 15px;
     justify-content: flex-end;  /*modificado:*/
     padding-right: 15px;        /*modificado:*/
-    gap: 20px;                  /*modificado:*/
+    gap: 15px;                  /*modificado:*/
+    font: 13px arial;           /*modificado:*/
 }
 /* .menu_texto{
     /* padding-right: 15px;  */
@@ -27,11 +28,15 @@ body{
 
 .logo{
     margin-top: 70px;
-    margin-left: 540px;
+    display: block;             /*modificado:*/
+    margin-left: auto;          /*modificado:*/
+    margin-right: auto;         /*modificado:*/
 }
 .pesquisa{
     margin-top: 20px;
-    margin-left: 430px; 
+    display: block;             /*modificado:*/
+    margin-right: auto;         /*modificado:*/
+    margin-left: auto;          /*modificado:*/
     width: 500px;
     height: 40px;
     border-radius: 20px 20px ;
@@ -45,7 +50,7 @@ body{
 }
 
 .botao_pesquisa{
-    margin-left: 550px;
+    text-align: center;          /*modificado:*/
     margin-top: 20px;
     width: 120px;
     height: 35px;
@@ -108,6 +113,7 @@ body{
     border-top: 1px solid #303134;
     display: flex;                      /*modificado:*/
     justify-content: space-between;     /*modificado:*/
+    
 }
 .menu_config_esquerda{
     gap: 20px;           /*modificado:*/
