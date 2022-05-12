@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-
 body{
    background-color:rgba(32,33,36,1)
 }
@@ -10,33 +9,41 @@ body{
     display: flex;
     align-items: center;
     margin-top: 15px;
-    justify-content: flex-end;  /*modificado:*/
-    padding-right: 15px;        /*modificado:*/
-    gap: 15px;                  /*modificado:*/
-    font: 13px arial;           /*modificado:*/
+    justify-content: flex-end;
+    padding-right: 15px;       
+    gap: 15px;               
+    font: 13px arial;          
 }
-/* .menu_texto{
-    /* padding-right: 15px;  */
+
+.menu_icone:hover{
+    cursor: pointer;
+}
+
+.menu_texto:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
 
 .menu_perfil{
     height: 32px;
     width: 32px;
     border-radius: 15px 15px;
 }
-/* .menu_icone{
-    /* padding-right: 15px; */
+.menu_perfil:hover{
+    cursor: pointer;
+}
 
 .logo{
     margin-top: 70px;
-    display: block;             /*modificado:*/
-    margin-left: auto;          /*modificado:*/
-    margin-right: auto;         /*modificado:*/
+    display: block;             
+    margin-left: auto;        
+    margin-right: auto;        
 }
 .pesquisa{
     margin-top: 20px;
-    display: block;             /*modificado:*/
-    margin-right: auto;         /*modificado:*/
-    margin-left: auto;          /*modificado:*/
+    display: block;            
+    margin-right: auto;        
+    margin-left: auto;         
     width: 500px;
     height: 40px;
     border-radius: 20px 20px ;
@@ -48,20 +55,25 @@ body{
 .pesquisa:hover{
     background: rgb(59, 59, 59);
 }
-
+.lupa{
+    height: 30px;
+    width: 30px;
+    
+}
 .botao_pesquisa{
-    text-align: center;          /*modificado:*/
+    text-align: center;        
     margin-top: 20px;
     width: 120px;
     height: 35px;
     background: #303134;
     color: white;
     outline: none;
-    border-color: transparent;          /*modificado:*/
-    border-radius: 5px 5px;             /*modificado:*/
+    border-color: transparent;          
+    border-radius: 5px 5px;             
 }
 .botao_pesquisa:hover{
-    border: 1px solid#bdc1c6;         /*modificado:*/
+    border: 1px solid#bdc1c6;   
+    cursor: pointer;     
 }
 
 .botao_explorar{
@@ -72,11 +84,12 @@ body{
     background: #303134;
     color: white;
     outline: none;
-    border-color: transparent;      /*modificado:*/
-    border-radius: 5px 5px;         /*modificado:*/
+    border-color: transparent;   
+    border-radius: 5px 5px;        
 }
 .botao_explorar:hover{
-    border: 1px solid#bdc1c6;    /*modificado:*/
+    border: 1px solid#bdc1c6;  
+    cursor: pointer;  
 }
 
 .traduçao{
@@ -92,6 +105,7 @@ body{
 
 .english:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .pais{
@@ -99,53 +113,63 @@ body{
     color: #bdc1c6;
     font: 15px arial;
     background: #1b1b1b;
-    padding: 12px;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
     padding-top: 15px;
-    padding-left: 20px;
     height: 15px;
 }
 .menu_config{
     color: #bdc1c6;
     font: 12px arial;
-    padding-top: 18px ;
     background: #1b1b1b;
-    height: 35px;
     border-top: 1px solid #303134;
-    display: flex;                      /*modificado:*/
-    justify-content: space-between;     /*modificado:*/
-    
+    padding-top: 18px;
+    height: 35px;
+    display: flex;                     
+    justify-content: space-between;  
+}
+.sobre{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .menu_config_esquerda{
-    gap: 20px;           /*modificado:*/
-    display: flex;       /*modificado:*/
-    padding-left: 30px;  /*modificado:*/
+    gap: 20px;         
+    display: flex;      
+    padding-left: 30px; 
+}
+.menu_config_esquerda:hover{
+    text-decoration: underline;
 }
 .menu_config_direita{
-    gap: 20px;           /*modificado:*/
-    display: flex;       /*modificado:*/
-    padding-right: 30px; /*modificado:*/
+    gap: 20px;          
+    display: flex;      
+    padding-right: 30px; 
+}
+.menu_config_direita:hover{
+    text-decoration: underline;
 }
 
-/* .menu_sobre{
-    padding: 12px;
+.menu_configuraçoes:hover{
+    cursor: pointer;
 }
-.menu_publicidade{
-    padding: 12px;
+.menu_termos:hover{
+    cursor: pointer;
 }
-.menu_negocios{
-    padding: 12px;
+.menu_privacidade:hover{
+    cursor: pointer;
 }
-.menu_pesquisa{
-    padding: 12px;
-    padding-right: 680px;
+.menu_pesquisa:hover{
+    cursor: pointer;
 }
-.menu_privacidade{
-    padding: 12px;
+.menu_negocios:hover{
+    cursor: pointer;
 }
-.menu_termos{
-    padding: 12px;
+.menu_publicidade:hover{
+    cursor: pointer;
 }
-.menu_configuraçoes{
-    padding: 12px;
-} */
-
+.menu_sobre:hover{
+    cursor: pointer;
+}
