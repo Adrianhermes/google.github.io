@@ -140,36 +140,38 @@ body{
     display: flex;      
     padding-left: 30px; 
 }
-.menu_config_esquerda:hover{
-    text-decoration: underline;
-}
+
 .menu_config_direita{
     gap: 20px;          
     display: flex;      
     padding-right: 30px; 
 }
-.menu_config_direita:hover{
-    text-decoration: underline;
-}
 
 .menu_configuraçoes:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_termos:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_privacidade:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_pesquisa:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_negocios:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_publicidade:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .menu_sobre:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
